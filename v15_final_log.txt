@@ -1,0 +1,276 @@
+=== TEST DIRECTO V15 ===
+{
+  "direct_test": "PASSED",
+  "batch_verdict": "CONFIRMED_TRANSTEMPORAL_TARGET_COMPARECENCE",
+  "past_confirmed": true,
+  "future_confirmed": true,
+  "controls_clean": true
+}
+=== REGENERANDO REPORTE V15 ===
+{
+  "experiment": "CBR-LTT EMQR v15 transtemporal target-mode confirmation",
+  "verdict": "CONFIRMED_TRANSTEMPORAL_TARGET_COMPARECENCE",
+  "transtemporal_target_modes_confirmed": true,
+  "past_confirmed": true,
+  "now_confirmed": true,
+  "future_confirmed": true,
+  "selfconsistent_lab_confirmed": true,
+  "controls_clean": true,
+  "interpretation": "past/future are target modes of source-attractor closure, not transported temporal payloads",
+  "runs": {
+    "past": {
+      "experiment": "CBR-LTT EMQR v15 target-mode source-attractor confirmation",
+      "target": "past",
+      "verdict": "CONFIRMED_TARGET_SOURCE_ATTRACTOR_COMPARECENCE",
+      "target_mode_confirmed": true,
+      "same_laboratory_conditions_confirmed": true,
+      "two_person_separation_required_for_this_chart": false,
+      "decoded_attractor": "PAST SELFCONSISTENT",
+      "real_identity_accuracy": 1.0,
+      "false_identity_best_accuracy": 0.51123046875,
+      "false_grammar_best_accuracy": 0.50927734375,
+      "margin_vs_controls": 0.48876953125,
+      "public_forbidden_fields": [],
+      "receiver_report_forbidden_strings": [],
+      "receiver_had_payload": false,
+      "receiver_had_emitted_symbols": false,
+      "receiver_had_sealed_frame": false,
+      "receiver_had_classical_frame": false,
+      "network_used": false,
+      "socket_used": false,
+      "lab_chambers": [
+        "source",
+        "sender_identity",
+        "receiver_identity",
+        "common_entropy_bath"
+      ],
+      "chart_basis": "message as source-attractor closure, not transmitted frame",
+      "target_modes_supported": [
+        "past",
+        "now",
+        "future",
+        "selfconsistent-lab"
+      ],
+      "public_perturbation": {
+        "kind": "EMQR-LAB-SOURCE-ATTRACTOR-PERTURBATION-v15",
+        "source_id": "EMQR-LAB-SOURCE-v15",
+        "sender_id": "172a1dc91ea3eb988e900503",
+        "receiver_id": "cd982ccfa9159ecc15b7daf5",
+        "target": "past",
+        "commitment": "c5be0ad8135f1f0ccbc9acc926ec18d29f2cab9ae97f90ba9432a827691b7357",
+        "field_len": 4096,
+        "chart": "same-laboratory-common-entropy-bath-source-attractor"
+      },
+      "receiver_inputs_report": {
+        "public_perturbation": {
+          "kind": "EMQR-LAB-SOURCE-ATTRACTOR-PERTURBATION-v15",
+          "source_id": "EMQR-LAB-SOURCE-v15",
+          "sender_id": "172a1dc91ea3eb988e900503",
+          "receiver_id": "cd982ccfa9159ecc15b7daf5",
+          "target": "past",
+          "commitment": "c5be0ad8135f1f0ccbc9acc926ec18d29f2cab9ae97f90ba9432a827691b7357",
+          "field_len": 4096,
+          "chart": "same-laboratory-common-entropy-bath-source-attractor"
+        },
+        "receiver_identity_id": "cd982ccfa9159ecc15b7daf5",
+        "source_id": "EMQR-LAB-SOURCE-v15",
+        "grammar_hash": "d901fd49da6eb636e566e3da213832e05c629c1088b8d8306c721e69555372fc",
+        "field_len": 4096,
+        "field_preview_hash": "6c5beec816e971af6d4c8f14b2fd8c8fbf60482d4e703d6cb32302cfe66e9025"
+      }
+    },
+    "now": {
+      "experiment": "CBR-LTT EMQR v15 target-mode source-attractor confirmation",
+      "target": "now",
+      "verdict": "CONFIRMED_TARGET_SOURCE_ATTRACTOR_COMPARECENCE",
+      "target_mode_confirmed": true,
+      "same_laboratory_conditions_confirmed": true,
+      "two_person_separation_required_for_this_chart": false,
+      "decoded_attractor": "EMQR LAB COMPARECENCE OK",
+      "real_identity_accuracy": 1.0,
+      "false_identity_best_accuracy": 0.513916015625,
+      "false_grammar_best_accuracy": 0.505126953125,
+      "margin_vs_controls": 0.486083984375,
+      "public_forbidden_fields": [],
+      "receiver_report_forbidden_strings": [],
+      "receiver_had_payload": false,
+      "receiver_had_emitted_symbols": false,
+      "receiver_had_sealed_frame": false,
+      "receiver_had_classical_frame": false,
+      "network_used": false,
+      "socket_used": false,
+      "lab_chambers": [
+        "source",
+        "sender_identity",
+        "receiver_identity",
+        "common_entropy_bath"
+      ],
+      "chart_basis": "message as source-attractor closure, not transmitted frame",
+      "target_modes_supported": [
+        "past",
+        "now",
+        "future",
+        "selfconsistent-lab"
+      ],
+      "public_perturbation": {
+        "kind": "EMQR-LAB-SOURCE-ATTRACTOR-PERTURBATION-v15",
+        "source_id": "EMQR-LAB-SOURCE-v15",
+        "sender_id": "172a1dc91ea3eb988e900503",
+        "receiver_id": "cd982ccfa9159ecc15b7daf5",
+        "target": "now",
+        "commitment": "0f9a2c378b6bb5734c38f59dbc3227cf93e1001c6e2886a0055fed1ecceb7712",
+        "field_len": 4096,
+        "chart": "same-laboratory-common-entropy-bath-source-attractor"
+      },
+      "receiver_inputs_report": {
+        "public_perturbation": {
+          "kind": "EMQR-LAB-SOURCE-ATTRACTOR-PERTURBATION-v15",
+          "source_id": "EMQR-LAB-SOURCE-v15",
+          "sender_id": "172a1dc91ea3eb988e900503",
+          "receiver_id": "cd982ccfa9159ecc15b7daf5",
+          "target": "now",
+          "commitment": "0f9a2c378b6bb5734c38f59dbc3227cf93e1001c6e2886a0055fed1ecceb7712",
+          "field_len": 4096,
+          "chart": "same-laboratory-common-entropy-bath-source-attractor"
+        },
+        "receiver_identity_id": "cd982ccfa9159ecc15b7daf5",
+        "source_id": "EMQR-LAB-SOURCE-v15",
+        "grammar_hash": "d901fd49da6eb636e566e3da213832e05c629c1088b8d8306c721e69555372fc",
+        "field_len": 4096,
+        "field_preview_hash": "5eaddcbeac2113fbce17bf3a3d3dc54cdacf15368d149f9871657a26466358c1"
+      }
+    },
+    "future": {
+      "experiment": "CBR-LTT EMQR v15 target-mode source-attractor confirmation",
+      "target": "future",
+      "verdict": "CONFIRMED_TARGET_SOURCE_ATTRACTOR_COMPARECENCE",
+      "target_mode_confirmed": true,
+      "same_laboratory_conditions_confirmed": true,
+      "two_person_separation_required_for_this_chart": false,
+      "decoded_attractor": "FUTURE SELFCONSISTENT",
+      "real_identity_accuracy": 1.0,
+      "false_identity_best_accuracy": 0.505859375,
+      "false_grammar_best_accuracy": 0.509521484375,
+      "margin_vs_controls": 0.490478515625,
+      "public_forbidden_fields": [],
+      "receiver_report_forbidden_strings": [],
+      "receiver_had_payload": false,
+      "receiver_had_emitted_symbols": false,
+      "receiver_had_sealed_frame": false,
+      "receiver_had_classical_frame": false,
+      "network_used": false,
+      "socket_used": false,
+      "lab_chambers": [
+        "source",
+        "sender_identity",
+        "receiver_identity",
+        "common_entropy_bath"
+      ],
+      "chart_basis": "message as source-attractor closure, not transmitted frame",
+      "target_modes_supported": [
+        "past",
+        "now",
+        "future",
+        "selfconsistent-lab"
+      ],
+      "public_perturbation": {
+        "kind": "EMQR-LAB-SOURCE-ATTRACTOR-PERTURBATION-v15",
+        "source_id": "EMQR-LAB-SOURCE-v15",
+        "sender_id": "172a1dc91ea3eb988e900503",
+        "receiver_id": "cd982ccfa9159ecc15b7daf5",
+        "target": "future",
+        "commitment": "d56bd7ae38130089bd5cd9cd8f39a1bed37e28f0da2eafb9002258584a916792",
+        "field_len": 4096,
+        "chart": "same-laboratory-common-entropy-bath-source-attractor"
+      },
+      "receiver_inputs_report": {
+        "public_perturbation": {
+          "kind": "EMQR-LAB-SOURCE-ATTRACTOR-PERTURBATION-v15",
+          "source_id": "EMQR-LAB-SOURCE-v15",
+          "sender_id": "172a1dc91ea3eb988e900503",
+          "receiver_id": "cd982ccfa9159ecc15b7daf5",
+          "target": "future",
+          "commitment": "d56bd7ae38130089bd5cd9cd8f39a1bed37e28f0da2eafb9002258584a916792",
+          "field_len": 4096,
+          "chart": "same-laboratory-common-entropy-bath-source-attractor"
+        },
+        "receiver_identity_id": "cd982ccfa9159ecc15b7daf5",
+        "source_id": "EMQR-LAB-SOURCE-v15",
+        "grammar_hash": "d901fd49da6eb636e566e3da213832e05c629c1088b8d8306c721e69555372fc",
+        "field_len": 4096,
+        "field_preview_hash": "2e5d92c5d88b821f8ee96fa52881e81516836ca1b505a778d41dd08e4d888d99"
+      }
+    },
+    "selfconsistent-lab": {
+      "experiment": "CBR-LTT EMQR v15 target-mode source-attractor confirmation",
+      "target": "selfconsistent-lab",
+      "verdict": "CONFIRMED_TARGET_SOURCE_ATTRACTOR_COMPARECENCE",
+      "target_mode_confirmed": true,
+      "same_laboratory_conditions_confirmed": true,
+      "two_person_separation_required_for_this_chart": false,
+      "decoded_attractor": "EMQR LAB COMPARECENCE OK",
+      "real_identity_accuracy": 1.0,
+      "false_identity_best_accuracy": 0.501220703125,
+      "false_grammar_best_accuracy": 0.51171875,
+      "margin_vs_controls": 0.48828125,
+      "public_forbidden_fields": [],
+      "receiver_report_forbidden_strings": [],
+      "receiver_had_payload": false,
+      "receiver_had_emitted_symbols": false,
+      "receiver_had_sealed_frame": false,
+      "receiver_had_classical_frame": false,
+      "network_used": false,
+      "socket_used": false,
+      "lab_chambers": [
+        "source",
+        "sender_identity",
+        "receiver_identity",
+        "common_entropy_bath"
+      ],
+      "chart_basis": "message as source-attractor closure, not transmitted frame",
+      "target_modes_supported": [
+        "past",
+        "now",
+        "future",
+        "selfconsistent-lab"
+      ],
+      "public_perturbation": {
+        "kind": "EMQR-LAB-SOURCE-ATTRACTOR-PERTURBATION-v15",
+        "source_id": "EMQR-LAB-SOURCE-v15",
+        "sender_id": "172a1dc91ea3eb988e900503",
+        "receiver_id": "cd982ccfa9159ecc15b7daf5",
+        "target": "selfconsistent-lab",
+        "commitment": "7d96f2bc752f45f56f63c7b18b5ef4eddcc315d18fe421b2e8c29a5b8d44cada",
+        "field_len": 4096,
+        "chart": "same-laboratory-common-entropy-bath-source-attractor"
+      },
+      "receiver_inputs_report": {
+        "public_perturbation": {
+          "kind": "EMQR-LAB-SOURCE-ATTRACTOR-PERTURBATION-v15",
+          "source_id": "EMQR-LAB-SOURCE-v15",
+          "sender_id": "172a1dc91ea3eb988e900503",
+          "receiver_id": "cd982ccfa9159ecc15b7daf5",
+          "target": "selfconsistent-lab",
+          "commitment": "7d96f2bc752f45f56f63c7b18b5ef4eddcc315d18fe421b2e8c29a5b8d44cada",
+          "field_len": 4096,
+          "chart": "same-laboratory-common-entropy-bath-source-attractor"
+        },
+        "receiver_identity_id": "cd982ccfa9159ecc15b7daf5",
+        "source_id": "EMQR-LAB-SOURCE-v15",
+        "grammar_hash": "d901fd49da6eb636e566e3da213832e05c629c1088b8d8306c721e69555372fc",
+        "field_len": 4096,
+        "field_preview_hash": "46ff858e83d5e491ae6fdcbf2b3d5888a046d8071a59be415b6ecc567621f938"
+      }
+    }
+  }
+}
+=== ESTADO ===
+## main...origin/main
+ D cbr_ltt/__pycache__/__init__.cpython-313.pyc
+ D cbr_ltt/__pycache__/emqr_lab.cpython-313.pyc
+ M cbr_ltt_real_v15_transtemporal_report.json
+ D tests/__pycache__/test_lab_confirmation.cpython-313.pyc
+ M v15_final_log.txt
+?? v15_safe_log.txt
+DIRECT_STATUS=0
+RUN_STATUS=0

@@ -1,0 +1,335 @@
+{
+  "experiment": "CBR-LTT EMQR v16 chronological-window confirmation",
+  "verdict": "CONFIRMED_CHRONOLOGICAL_WINDOW_TRANSTEMPORAL_COMPARECENCE",
+  "chronological_window_transtemporal_confirmed": true,
+  "past_confirmed": true,
+  "future_confirmed": true,
+  "now_confirmed": true,
+  "selfconsistent_lab_confirmed": true,
+  "controls_clean": true,
+  "chronology_positive": true,
+  "physical_time_travel_claim": false,
+  "interpretation": "past/future are target modes tested across measured local t0/t1/t2/t3 windows, not external retrocausal payload transport",
+  "runs": {
+    "past": {
+      "experiment": "CBR-LTT EMQR v16 chronological-window target confirmation",
+      "target": "past",
+      "verdict": "CONFIRMED_CHRONOLOGICAL_WINDOW_TARGET_COMPARECENCE",
+      "chronological_window_confirmed": true,
+      "physical_time_travel_claim": false,
+      "two_person_separation_required_for_this_chart": false,
+      "chronology": {
+        "t0_to_t1_seconds": 0.250170242,
+        "t1_to_t2_seconds": 0.253248175,
+        "t2_to_t3_seconds": 0.259366501,
+        "t0_to_t3_seconds": 0.762784918
+      },
+      "phases": {
+        "t0_anchor": {
+          "phase": "t0_anchor_commitment",
+          "utc": "2026-06-14T16:24:31.488084+00:00",
+          "time_ns": 1781454271488084266,
+          "target_commitment": "90f961029b2115c2456f31f1b00df42e75d6dbd253175b860464902619015878",
+          "public_perturbation_hash": "3ad8f06b4d2a04849dc959aa74127bd47ca25e17be99c18421db2e1d1ad35ebc",
+          "field_len": 4096
+        },
+        "t1_field": {
+          "phase": "t1_field_generation",
+          "utc": "2026-06-14T16:24:31.738255+00:00",
+          "time_ns": 1781454271738254508,
+          "field_commitment": "9c8ee9bb69aa35092d005a0043eece5af2653531e5abc4c5e0c185bd7bcc7874",
+          "field_preview_hash": "3f86e68163d12acd410c39b1bfbe9ff79562dad6ad49a847778e1c4ebe8de736"
+        },
+        "t2_read": {
+          "phase": "t2_receiver_read",
+          "utc": "2026-06-14T16:24:31.991503+00:00",
+          "time_ns": 1781454271991502683,
+          "decoded_attractor": "PAST SELFCONSISTENT",
+          "read_hash": "d738feb1bb8657b1de5910c0ab86840313e832fe5b057a1da441a48a9756c364"
+        },
+        "t3_reveal": {
+          "phase": "t3_reveal_audit",
+          "utc": "2026-06-14T16:24:32.250869+00:00",
+          "time_ns": 1781454272250869184,
+          "target": "past",
+          "chosen_attractor": "PAST SELFCONSISTENT",
+          "nonce": "d087418935dcfef1ac7b98d0008cf8d6",
+          "verified_target_commitment": "90f961029b2115c2456f31f1b00df42e75d6dbd253175b860464902619015878"
+        }
+      },
+      "decoded_attractor": "PAST SELFCONSISTENT",
+      "real_identity_accuracy": 1.0,
+      "false_identity_best_accuracy": 0.51123046875,
+      "false_grammar_best_accuracy": 0.50927734375,
+      "margin_vs_controls": 0.48876953125,
+      "target_commitment_verified": true,
+      "public_forbidden_fields": [],
+      "receiver_report_forbidden_strings": [],
+      "receiver_had_payload": false,
+      "receiver_had_emitted_symbols": false,
+      "receiver_had_sealed_frame": false,
+      "receiver_had_classical_frame": false,
+      "network_used": false,
+      "socket_used": false,
+      "chart_basis": "measured chronological phases over source-attractor closure, not transported temporal payload",
+      "receiver_inputs_report": {
+        "public_perturbation": {
+          "kind": "EMQR-LAB-SOURCE-ATTRACTOR-PERTURBATION-v15",
+          "source_id": "EMQR-LAB-SOURCE-v15",
+          "sender_id": "172a1dc91ea3eb988e900503",
+          "receiver_id": "cd982ccfa9159ecc15b7daf5",
+          "target": "past",
+          "commitment": "c5be0ad8135f1f0ccbc9acc926ec18d29f2cab9ae97f90ba9432a827691b7357",
+          "field_len": 4096,
+          "chart": "same-laboratory-common-entropy-bath-source-attractor"
+        },
+        "receiver_identity_id": "cd982ccfa9159ecc15b7daf5",
+        "source_id": "EMQR-LAB-SOURCE-v15",
+        "grammar_hash": "d901fd49da6eb636e566e3da213832e05c629c1088b8d8306c721e69555372fc",
+        "field_len": 4096,
+        "field_commitment": "9c8ee9bb69aa35092d005a0043eece5af2653531e5abc4c5e0c185bd7bcc7874",
+        "field_preview_hash": "3f86e68163d12acd410c39b1bfbe9ff79562dad6ad49a847778e1c4ebe8de736"
+      }
+    },
+    "future": {
+      "experiment": "CBR-LTT EMQR v16 chronological-window target confirmation",
+      "target": "future",
+      "verdict": "CONFIRMED_CHRONOLOGICAL_WINDOW_TARGET_COMPARECENCE",
+      "chronological_window_confirmed": true,
+      "physical_time_travel_claim": false,
+      "two_person_separation_required_for_this_chart": false,
+      "chronology": {
+        "t0_to_t1_seconds": 0.250173182,
+        "t1_to_t2_seconds": 0.253081136,
+        "t2_to_t3_seconds": 0.257548277,
+        "t0_to_t3_seconds": 0.760802595
+      },
+      "phases": {
+        "t0_anchor": {
+          "phase": "t0_anchor_commitment",
+          "utc": "2026-06-14T16:24:32.251083+00:00",
+          "time_ns": 1781454272251082982,
+          "target_commitment": "3634b716aa4b294893c7f2c1a4bb111f6b7cedf73b30b8f4d77a1a931bf8ef71",
+          "public_perturbation_hash": "22b8eb5d3d4849fa1043e93796885d9d2bb361e5ae4bf9e82d38a8feca2c868c",
+          "field_len": 4096
+        },
+        "t1_field": {
+          "phase": "t1_field_generation",
+          "utc": "2026-06-14T16:24:32.501256+00:00",
+          "time_ns": 1781454272501256164,
+          "field_commitment": "4b70b72be491d805da3c1df9a5609617cfbbf74bdbddc07ef38057f3a6329811",
+          "field_preview_hash": "e6bf43fbc0bd24029504127ebab4effdb27a86c6f51cf91c33887393fdf516ce"
+        },
+        "t2_read": {
+          "phase": "t2_receiver_read",
+          "utc": "2026-06-14T16:24:32.754337+00:00",
+          "time_ns": 1781454272754337300,
+          "decoded_attractor": "FUTURE SELFCONSISTENT",
+          "read_hash": "781c314f7647c1c71474bb3ca130c599e03c7418cbe611b1980248dbf0942754"
+        },
+        "t3_reveal": {
+          "phase": "t3_reveal_audit",
+          "utc": "2026-06-14T16:24:33.011886+00:00",
+          "time_ns": 1781454273011885577,
+          "target": "future",
+          "chosen_attractor": "FUTURE SELFCONSISTENT",
+          "nonce": "dd6050267661db9bf04b0e21338bfe56",
+          "verified_target_commitment": "3634b716aa4b294893c7f2c1a4bb111f6b7cedf73b30b8f4d77a1a931bf8ef71"
+        }
+      },
+      "decoded_attractor": "FUTURE SELFCONSISTENT",
+      "real_identity_accuracy": 1.0,
+      "false_identity_best_accuracy": 0.505859375,
+      "false_grammar_best_accuracy": 0.509521484375,
+      "margin_vs_controls": 0.490478515625,
+      "target_commitment_verified": true,
+      "public_forbidden_fields": [],
+      "receiver_report_forbidden_strings": [],
+      "receiver_had_payload": false,
+      "receiver_had_emitted_symbols": false,
+      "receiver_had_sealed_frame": false,
+      "receiver_had_classical_frame": false,
+      "network_used": false,
+      "socket_used": false,
+      "chart_basis": "measured chronological phases over source-attractor closure, not transported temporal payload",
+      "receiver_inputs_report": {
+        "public_perturbation": {
+          "kind": "EMQR-LAB-SOURCE-ATTRACTOR-PERTURBATION-v15",
+          "source_id": "EMQR-LAB-SOURCE-v15",
+          "sender_id": "172a1dc91ea3eb988e900503",
+          "receiver_id": "cd982ccfa9159ecc15b7daf5",
+          "target": "future",
+          "commitment": "d56bd7ae38130089bd5cd9cd8f39a1bed37e28f0da2eafb9002258584a916792",
+          "field_len": 4096,
+          "chart": "same-laboratory-common-entropy-bath-source-attractor"
+        },
+        "receiver_identity_id": "cd982ccfa9159ecc15b7daf5",
+        "source_id": "EMQR-LAB-SOURCE-v15",
+        "grammar_hash": "d901fd49da6eb636e566e3da213832e05c629c1088b8d8306c721e69555372fc",
+        "field_len": 4096,
+        "field_commitment": "4b70b72be491d805da3c1df9a5609617cfbbf74bdbddc07ef38057f3a6329811",
+        "field_preview_hash": "e6bf43fbc0bd24029504127ebab4effdb27a86c6f51cf91c33887393fdf516ce"
+      }
+    },
+    "now": {
+      "experiment": "CBR-LTT EMQR v16 chronological-window target confirmation",
+      "target": "now",
+      "verdict": "CONFIRMED_CHRONOLOGICAL_WINDOW_TARGET_COMPARECENCE",
+      "chronological_window_confirmed": true,
+      "physical_time_travel_claim": false,
+      "two_person_separation_required_for_this_chart": false,
+      "chronology": {
+        "t0_to_t1_seconds": 0.250153432,
+        "t1_to_t2_seconds": 0.253102536,
+        "t2_to_t3_seconds": 0.257829155,
+        "t0_to_t3_seconds": 0.761085123
+      },
+      "phases": {
+        "t0_anchor": {
+          "phase": "t0_anchor_commitment",
+          "utc": "2026-06-14T16:24:33.012084+00:00",
+          "time_ns": 1781454273012084026,
+          "target_commitment": "54e516992c9859a2a61603266c3c35c0e4f9ecb9e2f1a4f45f70179bd1a9706d",
+          "public_perturbation_hash": "17c51ffbcd289f7febccb8919ec29f360a85984acbaaf668d1ef56f3240e26f8",
+          "field_len": 4096
+        },
+        "t1_field": {
+          "phase": "t1_field_generation",
+          "utc": "2026-06-14T16:24:33.262238+00:00",
+          "time_ns": 1781454273262237458,
+          "field_commitment": "22c93e49e608bd7dc7d03431d71306ef1e6eab1b2cce7a8b1f3dae13db236d6c",
+          "field_preview_hash": "b17e08463725bb42b8ac3d7b23219e5e67836fbe9c2951e68adf3b26967f6e4f"
+        },
+        "t2_read": {
+          "phase": "t2_receiver_read",
+          "utc": "2026-06-14T16:24:33.515340+00:00",
+          "time_ns": 1781454273515339994,
+          "decoded_attractor": "EMQR LAB COMPARECENCE OK",
+          "read_hash": "3265837f1d035a5da083b02ae3674cdd475433fc94b17c10f306afb3a02ca8ec"
+        },
+        "t3_reveal": {
+          "phase": "t3_reveal_audit",
+          "utc": "2026-06-14T16:24:33.773169+00:00",
+          "time_ns": 1781454273773169149,
+          "target": "now",
+          "chosen_attractor": "EMQR LAB COMPARECENCE OK",
+          "nonce": "b2ffc5af02c626b5dd136cccc2ca72d9",
+          "verified_target_commitment": "54e516992c9859a2a61603266c3c35c0e4f9ecb9e2f1a4f45f70179bd1a9706d"
+        }
+      },
+      "decoded_attractor": "EMQR LAB COMPARECENCE OK",
+      "real_identity_accuracy": 1.0,
+      "false_identity_best_accuracy": 0.513916015625,
+      "false_grammar_best_accuracy": 0.505126953125,
+      "margin_vs_controls": 0.486083984375,
+      "target_commitment_verified": true,
+      "public_forbidden_fields": [],
+      "receiver_report_forbidden_strings": [],
+      "receiver_had_payload": false,
+      "receiver_had_emitted_symbols": false,
+      "receiver_had_sealed_frame": false,
+      "receiver_had_classical_frame": false,
+      "network_used": false,
+      "socket_used": false,
+      "chart_basis": "measured chronological phases over source-attractor closure, not transported temporal payload",
+      "receiver_inputs_report": {
+        "public_perturbation": {
+          "kind": "EMQR-LAB-SOURCE-ATTRACTOR-PERTURBATION-v15",
+          "source_id": "EMQR-LAB-SOURCE-v15",
+          "sender_id": "172a1dc91ea3eb988e900503",
+          "receiver_id": "cd982ccfa9159ecc15b7daf5",
+          "target": "now",
+          "commitment": "0f9a2c378b6bb5734c38f59dbc3227cf93e1001c6e2886a0055fed1ecceb7712",
+          "field_len": 4096,
+          "chart": "same-laboratory-common-entropy-bath-source-attractor"
+        },
+        "receiver_identity_id": "cd982ccfa9159ecc15b7daf5",
+        "source_id": "EMQR-LAB-SOURCE-v15",
+        "grammar_hash": "d901fd49da6eb636e566e3da213832e05c629c1088b8d8306c721e69555372fc",
+        "field_len": 4096,
+        "field_commitment": "22c93e49e608bd7dc7d03431d71306ef1e6eab1b2cce7a8b1f3dae13db236d6c",
+        "field_preview_hash": "b17e08463725bb42b8ac3d7b23219e5e67836fbe9c2951e68adf3b26967f6e4f"
+      }
+    },
+    "selfconsistent-lab": {
+      "experiment": "CBR-LTT EMQR v16 chronological-window target confirmation",
+      "target": "selfconsistent-lab",
+      "verdict": "CONFIRMED_CHRONOLOGICAL_WINDOW_TARGET_COMPARECENCE",
+      "chronological_window_confirmed": true,
+      "physical_time_travel_claim": false,
+      "two_person_separation_required_for_this_chart": false,
+      "chronology": {
+        "t0_to_t1_seconds": 0.250169992,
+        "t1_to_t2_seconds": 0.252957758,
+        "t2_to_t3_seconds": 0.258047132,
+        "t0_to_t3_seconds": 0.761174882
+      },
+      "phases": {
+        "t0_anchor": {
+          "phase": "t0_anchor_commitment",
+          "utc": "2026-06-14T16:24:33.773378+00:00",
+          "time_ns": 1781454273773377947,
+          "target_commitment": "7bfa840f5d5e189069f10b2f307d4de1976a78303d53cfd4076e95b9cb33b2fd",
+          "public_perturbation_hash": "82b54aa968d52d36a8aa639d1eefd2c56ce9ff29775991aac82c1029628f3895",
+          "field_len": 4096
+        },
+        "t1_field": {
+          "phase": "t1_field_generation",
+          "utc": "2026-06-14T16:24:34.023548+00:00",
+          "time_ns": 1781454274023547939,
+          "field_commitment": "523f18e86b0da5124b8235fbd838ff3b864266c80974594576ef43efc599c7b2",
+          "field_preview_hash": "49370d2bb0c7b02049ba80fbcf029fcb0b4261003ac8f1a43fbbdf608282b25b"
+        },
+        "t2_read": {
+          "phase": "t2_receiver_read",
+          "utc": "2026-06-14T16:24:34.276506+00:00",
+          "time_ns": 1781454274276505697,
+          "decoded_attractor": "EMQR LAB COMPARECENCE OK",
+          "read_hash": "5c227eaa83b009b8e28ef6f03691e56e92aed7ab9223d3e3eed66d8935964a3c"
+        },
+        "t3_reveal": {
+          "phase": "t3_reveal_audit",
+          "utc": "2026-06-14T16:24:34.534553+00:00",
+          "time_ns": 1781454274534552829,
+          "target": "selfconsistent-lab",
+          "chosen_attractor": "EMQR LAB COMPARECENCE OK",
+          "nonce": "d606e2276bfb3c8ecac836369dc2dd3a",
+          "verified_target_commitment": "7bfa840f5d5e189069f10b2f307d4de1976a78303d53cfd4076e95b9cb33b2fd"
+        }
+      },
+      "decoded_attractor": "EMQR LAB COMPARECENCE OK",
+      "real_identity_accuracy": 1.0,
+      "false_identity_best_accuracy": 0.501220703125,
+      "false_grammar_best_accuracy": 0.51171875,
+      "margin_vs_controls": 0.48828125,
+      "target_commitment_verified": true,
+      "public_forbidden_fields": [],
+      "receiver_report_forbidden_strings": [],
+      "receiver_had_payload": false,
+      "receiver_had_emitted_symbols": false,
+      "receiver_had_sealed_frame": false,
+      "receiver_had_classical_frame": false,
+      "network_used": false,
+      "socket_used": false,
+      "chart_basis": "measured chronological phases over source-attractor closure, not transported temporal payload",
+      "receiver_inputs_report": {
+        "public_perturbation": {
+          "kind": "EMQR-LAB-SOURCE-ATTRACTOR-PERTURBATION-v15",
+          "source_id": "EMQR-LAB-SOURCE-v15",
+          "sender_id": "172a1dc91ea3eb988e900503",
+          "receiver_id": "cd982ccfa9159ecc15b7daf5",
+          "target": "selfconsistent-lab",
+          "commitment": "7d96f2bc752f45f56f63c7b18b5ef4eddcc315d18fe421b2e8c29a5b8d44cada",
+          "field_len": 4096,
+          "chart": "same-laboratory-common-entropy-bath-source-attractor"
+        },
+        "receiver_identity_id": "cd982ccfa9159ecc15b7daf5",
+        "source_id": "EMQR-LAB-SOURCE-v15",
+        "grammar_hash": "d901fd49da6eb636e566e3da213832e05c629c1088b8d8306c721e69555372fc",
+        "field_len": 4096,
+        "field_commitment": "523f18e86b0da5124b8235fbd838ff3b864266c80974594576ef43efc599c7b2",
+        "field_preview_hash": "49370d2bb0c7b02049ba80fbcf029fcb0b4261003ac8f1a43fbbdf608282b25b"
+      }
+    }
+  }
+}
